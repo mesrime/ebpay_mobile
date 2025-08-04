@@ -1,7 +1,27 @@
+# Base de Données ebPay
 
-commande pour importer le shema de la base de donnees sur son pc(postgre): psql -U postgres -d qrpaydb < database/ebpay.sql
+## 🔧 Configuration
+- Type : PostgreSQL
+- Nom : ebpay
+- Utilisateur : postgres
+- Mot de passe : (à configurer localement)
+- Port : 5432
 
-Si un membre fait des modifications à la base :
-    Il met à jour schema.sql
-    Il fait un commit avec un message clair
-    Les autres membres font un git pull et réappliquent si besoin
+## 📦 Initialisation
+Pour créer la base localement :
+
+```bash
+createdb qrpaydb
+psql -U postgres -d qrpaydb < ebpay.sql
+
+## mise a jour
+
+Quand une modification est faite :
+
+Modifier schema.sql
+
+Ajouter un commentaire clair dans le commit
+
+Faire un git push
+
+Les autres membres font un git pull et mettent à jour chez eux
