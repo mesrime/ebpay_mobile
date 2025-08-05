@@ -12,7 +12,7 @@ Pour créer la base localement :
 
 ```bash
 createdb ebpay
-psql -U postgres -d qrpaydb < ebpay.sql
+psql -U postgres -d ebpaydb < ebpay.sql
 
 ##  mise a jour
 
