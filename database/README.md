@@ -11,14 +11,14 @@
 Pour créer la base localement :
 
 ```bash
-createdb qrpaydb
+createdb ebpay
 psql -U postgres -d qrpaydb < ebpay.sql
 
-## mise a jour
+##  mise a jour
 
 Quand une modification est faite :
 
-Modifier schema.sql
+Modifier ebpay.sql
 
 Ajouter un commentaire clair dans le commit
 
