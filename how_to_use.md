@@ -4,7 +4,7 @@
 cd /chemin/vers/le/dossier/de/projets
 
 ## Cloner le dépôt
-git clone https://github.com/TON-UTILISATEUR/ebpaypay_mobile.git
+git clone https://github.com/TON-UTILISATEUR/ebpay_mobile.git
 
 # Entrer dans le dossier du projet
 cd ebpay_mobile
